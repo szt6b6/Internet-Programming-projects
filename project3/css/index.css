@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #3498db;
+    text-align: center;
+  }
+
+input {
+    border-width: 3px;
+    border-radius: 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.button {
+    padding: 8px 1% 8px 12px;
+}
+
+.search {
+    padding: 8px 13% 8px 12px;
+}
+
+#login, #logout, #login_status, #borrowList, #home {
+    display: inline;
+}
+
+#login_logout_bar {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#search_field {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border-radius: 6px;
+}
+
+#home {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+

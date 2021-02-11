@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>BFS&DFS</title>
+    <script src="js/bfs_dfs.js" defer></script>
+    <link rel="stylesheet" href="css/bfs_dfs.css">
+</head>
+
+<body>
+    <div class="text">
+        <!-- control button area -->
+        <div class="control">
+            <button type="button" onclick="run()">start</button>
+            <button type="button" onclick="location.reload()">refresh</button>
+            <button type="button" onclick="setAlgorithm(this)">BFA</button>
+            <a id="iteration"></a>
+        </div>
+        <!-- supplement of text area -->
+        <p>Take a look how BFS and DFS work.</p>
+        <p>Click BFA button to change algorithm.</p>
+        <p>Enjoy yourself.</p>
+    </div>
+
+    <!-- show map and path here-->
+    <div class="map">
+        <div id="panel"></div>
+        <canvas id="myCanvas"></canvas>
+        <canvas id="myCanvasForFinalPath"></canvas>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-image: url(../img/happyChristmas.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}  
+
+
+#myCanvas, #myCanvasForFinalPath {
+    position: absolute;
+}
+
+#panel {
+    position: absolute;
+    display: inline-grid;
+    width: auto;
+    height: auto;
+}
+
+#iteration {
+    color: yellow;
+}
+
+.text {
+    color: yellow;
+    text-align: center;
+    display: inline;
+}
+
+.control {
+    text-align: center;
+}
+
+/* set the map the the horiontal center*/
+.map {
+    margin-left: 25%;
+    margin-right: 25%;
+}

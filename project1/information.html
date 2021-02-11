@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creat your own HarryPotter Visa!</title>
+    <script src="js/information.js" defer></script>
+    <link rel="stylesheet" href="css/information.css">
+</head>
+
+<body>
+  
+        <p>Please enter your information</p><br>
+        <div>
+        <!-- personal information -->
+        <label for="fname" >First Name:</label><br>
+        <input type="text" id="fName" name="fname"><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lName" name="lname"><br><br>
+        <!-- User can choose their school -->
+        <label for="school">Please Select your School:</label><br>
+        <input type="radio" id="Gryffindor" name="school" value="Gryffindor" checked>
+        <label for="Gryffindor">Gryffindor</label><br>
+        <input type="radio" id="Ravenclaw" name="school" value="Ravenclaw">
+        <label for="Ravenclaw">Ravenclaw</label><br>
+        <input type="radio" id="Slytherin" name="school" value="Slytherin">
+        <label for="Slytherin">Slytherin</label><br>
+        <input type="radio" id="Hufflepuff" name="school" value="Hufflepuff">
+        <label for="Hufflepuff">Hufflepuff</label><br>
+        
+        <!-- Submit Button -->
+        <input type="button" id="submit" Value="Submit" onclick="checkValue();this.disabled=true;this.form.submit()">
+    </div>
+     
+        
+    
+
+</body>
+
+</html>

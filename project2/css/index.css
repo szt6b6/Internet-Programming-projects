@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+table, th, td, caption {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+caption {
+    background-color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    background-color: darkgray;
+}
+
+input {
+    size: auto;
+    text-align: center;
+}
+
+.function_button {
+    margin: auto;
+    display: inline;
+}

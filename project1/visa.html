@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>You can make a screenshot to save your HarryPotter Visa!</title>
+    <link rel="stylesheet" href="css/visa.css">
+</head>
+
+<body id="body">
+
+        <div>
+            <br><br><br><br><br><br><br><br><br>
+            <!-- Set the color of the font to dark green -->
+            <a id="vorName"></a>
+            <a id="nachName"></a><br><br><br><br><br><br><br>
+            <!-- Add the gif the school the user have chosen -->
+            <img src='img/Ravenclaw.gif' id='schoolPhoto' width=65, height=65, margin-right:10px; >
+        </div>
+           
+   
+    <script defer>
+        //Change the school picture by what user have selected
+        document.getElementById('schoolPhoto').src=schoolPicture();
+        //Return the corresponding address of the picture matched the ueser's choice
+        function schoolPicture() {
+            var school;
+            document.getElementById('vorName').innerText = sessionStorage['fName'];//Get data from information.html
+            document.getElementById('nachName').innerText = sessionStorage['lName']
+            if (sessionStorage['school'] == 'Gryffindor') {
+                school = 'img/Granffindor.gif';
+            } else if (sessionStorage['school'] == 'Ravenclaw') {
+                school = "img/Ravenclaw.gif";
+            } else if (sessionStorage['school'] == 'Slytherin') {
+                school = "img/Slytherin.gif";
+            } else {
+                school='img/Huffpuff.gif'
+            }
+            return school;
+            sessionStorage.clear();
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-image: url(../img/happyChristmas.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}  
+
+p {
+    font-weight: bolder;
+    color: chartreuse;
+}
+
+input { 
+    border: 1px solid lightblue;   
+    border-radius: 10%;
+}
+
+.falseValueClass {
+    background-color: tomato;
+}
+
+.trueValueClass {
+    background-color: aqua;
+}

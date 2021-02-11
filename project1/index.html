@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <!-- defer means after page load conpletely, then load js-->
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--use audio tag to play music-->
+    <audio controls src="audio/bgm.mp3" class="block">
+        Your browser does not support the audio
+    </audio>
+    <!-- canvas for clicking emotion(blue enlarging circle) -->
+    <canvas id="mainCanvas" onmousedown="draw(event, 1)" class="block"></canvas>
+    <!-- link to other pages -->
+
+
+    <a href="DFSandBFS.html" id="dfs_bfs">
+        <p>Have a look at how BFS and DFS work</p>
+    </a>
+
+    <a href="you_calculate.html" id="calu">
+        <p>Test your ability of calculating</p>
+    </a>
+
+    <a href="information.html" id="info">
+        <p>Make your own Hogwarts acceptance letter</p>
+    </a>
+
+    <a href="sayHello.html" id="hello">
+        <p>Say <i>HELLO</i> in different languages</p>
+    </a>
+
+</body>
+
+</html>

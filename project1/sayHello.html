@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>How to say Hello</title>
+    <script src="js/sayHello.js"></script>
+    <link rel="stylesheet" href="css/sayHello.css">
+</head>
+
+<body>
+    <h1 style="color : Tomato;">How to say <i>HELLO</i></h1>
+    <h2 style="color : Red;">Learn to say <i>HELLO</i> in differt languages</h2>
+    <h2 style="color : Yellow;">Click the flags to learn</h2>
+
+    <div>
+        <img src="./img/China.jpg" alt="Chinese" onclick="ChineseHello()">
+        <img src="./img/Deutschland.jpg" alt="Deutsch" onclick="DeutschHello()">
+        <img src="./img/Russia.jpg" alt="Russian" onclick="RussianHello()">
+        <img src="./img/Japan.jpg" alt="Japanese" onclick="JapaneseHello()">
+    </div>
+
+    <audio id="chineseVoice">
+<source src = "./audio/Chinese.mp3"></source>
+Your browser does not support the audio element.
+</audio>
+    <audio id="deutschVoice">
+<source src = "./audio/Deutsch.mp3"></source>
+Your browser does not support the audio element.
+</audio>
+    <audio id="russianVoice">
+<source src = "./audio/Russian.mp3"></source>
+Your browser does not support the audio element.
+</audio>
+    <audio id="japaneseVoice">
+<source src = "./audio/Japanese.mp3"></source>
+Your browser does not support the audio element.
+</audio>
+
+</body>
+
+</html>

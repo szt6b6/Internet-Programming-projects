@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-image: url(../img/happyChristmas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 320px;
+    height: 180px;
+}
